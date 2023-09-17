@@ -1,0 +1,13 @@
+CLASE 19
+
+POO
+Se crea primero la calse, despues una instancia(objeto a partir de una clase), y despues lo puedo utilizar
+CLASES--> moldes de la entidades
+
+
+
+(funcion que se ejecuta cuando se crea una nueva instancia de una clase de ese objeto)
+Constructor{
+	(dentro van las caracteristicas)
+}
+y por fuera los comportamientos

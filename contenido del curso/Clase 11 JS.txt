@@ -1,0 +1,28 @@
+                                                              JAVASCRIPT
+
+Como incorporar un archivo JS en un HTML
+<script src="./script.js"></script>
+antes del cierre del body
+es mejor hacerlo en un archivo aparte, ya que si en el HTML esta el codigo de JS es visible en el inspector del navegador
+/* dejar comentarios es una buena practica para el trabajo en equipo*/
+//comentarios en linea  /*comentario con apertura y cierre*/
+
+JS manipula DATOS para darles un corportamiento
+QUE DATOS ENTIENDE?
+S
+-STRINGS -> entiende con comillas: "", comillas rectas y acento frances console.log()
+
+-NUMBER-> 10.5 (diez coma cinco)      10,2(diez y dos) NaN:Not a Number-> forma parte del tipo de dato number cuando lo que quiero hacer no da un numero console.log()
+
+-BOOLEANS-> ture(1) (distinto "true"-> string)     false(0)
+
+-VARIABLES-> son espacios de memoria donde guardamos datos mientras el sitio se reproduzca palabra reservada(pr):var(mejor no utilizar) -let -const
+
+-----------------------------
+OPERADORES
+
+-ARITMETICOS-> nos permiten usar numeros y realizar operaciones con ellos (+suma,-resta,*multiplicacion,/division)
+-COMPARACION-> comparan valores, nos devuelven true o false (boolean) "==" compara solo el valor ; "===" compara hasta el tipo de dato; != es distinto a; !== compara tambien valor;  <=; >=
+-LOGICOS-> AND y && -> ambas condiciones se tienen que cumplir para que me de resultado "true"
+        -> OR  ||-> con que una de las operacions se cumpla, ya nos devuelve "true"
+        -> NOT (!) -> es la negacion (invierte el resultado)

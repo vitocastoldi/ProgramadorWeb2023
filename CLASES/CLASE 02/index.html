@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Clase 2</title>
+</head>
+  <body>
+	 <!-- Etiquetas semanticas -->
+	 <h1>Etiquetas De HTML</h1> <!-- El h1 unico en todo el HTML como buena practica,ya que es el mas importante--> 
+	
+	 <h2>Otro titulo</h2>
+	 <h6>Otro Titulo</h6>
+
+
+	 <p id="texto1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>
+	 <p>Otro parrafo... <br/> <!-- NO UTILIZAR EL BR EN TITULOS -->
+	 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	 </p>
+
+	 <!-- LISTAS -->
+	 <!-- Listas Organizadas ( ol-> organize list)-->
+	 <ol>
+	 	<li>Item</li><!--li: list item (item de lista)-->
+	 	<li>Otro</li>
+	 	<li>Otro Item</li>
+	 </ol>
+	 <!-- ul : Unnorganized list-->
+	 <ul>
+	 	<li>Item</li>
+	 	<li>Item</li>
+	 	<li>Item</li>
+	 	<li>Item</li>
+	 </ul>
+
+	 <!-- Funcionales-->
+	 <a href="https://www.google.com/" target="_blank">Ir a google</a><!-- anclas - anchor
+	 Necesita del atributo href para saber donde tiene que linkear-->
+	<a href=""></a>
+
+	<a href="#texto1">Ir al primer texto</a>  <!-- Con el # entiende que queremos ir a la ubicacion del elemento de ese id-->
+
+	<button>Click aca</button>
+
+
+	<img src="./elnoba.jpg" alt="el noba">
+
+	<video>
+		<!--  alternativas de formato de vieo , para que elija cual de estas opciones puede reproducir -->
+		<source src="" type="">
+	</video>
+	<audio>
+		<!-- para audios se utilizan las mismas etiquetas que video-->
+	</audio>
+	<iframe src=iframe width="560" height="315" src="https://www.youtube.com/embed/ROVNQT-W6z8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>""></iframe>
+
+
+  </body>
+</html>
+
+<!-- HTML : Hyper Text Markup Languaje
+// se basa en etiquetas : <etiqueta>
+	- apertura y cierre -> <etiqueta></etiqueta>
+	- cierran en si mismas -> <etiqueta /> 
+	accesibilidad : buena experiencia del usario
+	lectores de pantalla / screen reeders -->
+	<!-- ATRIBUTOS: 
+		
+		- href , indicamos a donde redireccionar cuando se clickee,
+		target= "_blank" es para indicar que se abra en una pestaña nueva
+		-class -> clases, es un nombre que podemos darle a etiquetas para "agruparlas" o nombrarlas por clase
+		-id -> es para darle una unica identificacion a una etiqueta
+		SI QUIERO REDIRECCIONAR USO <a>, si no voy a redireccionar, uso <button>
+		-tittle: le agrega un cartelito a las etiquetas
+
+
+	Ruteo
+	./ si es un documento/carpeta que tenemos a la misma altura que el actual
+	../ para "salir" de la carpeta actual y poder ingresar a otras carpetas o archivos que se encuentre por fuera

@@ -1,0 +1,40 @@
+/*---------- navegacion ----------*/
+ul{
+    background-color: greenyellow;
+    list-style: none;
+    display: flex;
+}
+/*------------ main area -----------*/
+section{
+    height: 700px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    display: flex;
+}
+main{
+    background-color: lightblue;
+    display: flex;
+    /* direccion : fila o columna*/
+    flex-direction: row;
+    /* alineacion vertical y horizontal
+    alinear de manera horizontal (cuando es una row)*/
+    justify-content: center;
+    /*alinear de manera vertical (cuando es una row)*/
+    align-items: baseline;
+    /* indicar que es "mas importante" si el tamaño de los hijos o la direccion*/
+    flex-wrap:wrap;
+}
+.cuadro{
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    border: 2px solid violet;
+}
+/* le decimos al padre como se tienen que ubicar los hijos
+
+main es el padre de los div de clase "cuadro" 
+
+Flexbox se puede aplicar en cualquier etiqueta  */
+
+/* justify-content -> flex-start, flex-end, center 
+space-between, space-arround, space evenly*/

@@ -1,0 +1,23 @@
+CLASE 13 
+BUCLE FOR tradicional
+
+  for(accion inicial; condicion; accion por vuelta){
+    	accion/es a repetir
+    }
+
+ prompt() -> el usuario pueda agregar valor
+
+
+
+FUNCIONES: conjunto de acciones
+1- definirlas | crearlas      function nombre(conj de acciones a realizar){
+				}
+function sumar(){
+	console.log(20+40)
+ 	}
+2- invoco | ejecuto
+priemro la defino, despues la ejecuto
+ function sumarBis()
+sumar()
+sumar()
+sumar()
